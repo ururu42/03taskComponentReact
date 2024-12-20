@@ -97,22 +97,6 @@ export const App = () => {
 		}
 	};
 
-	if (result) {
-		if (operator === '+' || operator === '-') {
-			const operand3 = result;
-
-			console.log(operand3);
-			clearCalculate();
-
-			setOperand1(operand3);
-			setOperator(operator);
-			setIsOperator(true);
-
-			const operand4 = operand2;
-			console.log(operand4);
-		}
-	}
-
 	return (
 		<div className={styles.App}>
 			<header className={styles.header}>
